@@ -1,0 +1,233 @@
+.BList {
+	width: 70%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	margin-top: 10px;
+}
+.sidebarList {
+	width: 100%;
+
+}
+.contentList {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	justify-content: space-around;
+	text-align: center;
+}
+.contentList img {
+	width: 100%;
+}
+.itemL {
+	overflow: hidden;
+}
+.itemL a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.itemL a:hover {
+	color: firebrick;
+	text-decoration: underline;
+}
+.itemL:hover {
+	border: 1px black solid;
+}
+.Gia-SL {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.infoL {
+	display: grid;
+	grid-template-rows: 50px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.GiaL p {
+	color: red;
+}
+.SapXepL {
+	grid-column: 1 / span 2;
+}
+.GioL{
+	grid-column: 1 /span 3;
+	display:flex;
+	justify-content: flex-end;
+    margin-right: 20px;
+	position: relative;
+}
+.ListGio {
+	display: none;
+}
+.GioL i {
+	cursor: pointer;
+}
+.GioL:hover .ListGio {
+	
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	position: absolute;
+	top: 40px;
+	margin-bottom: -15px;
+	max-width: 600px;
+	background-color: #E6F1D8;
+}
+
+.GioL .fa{
+	font-size: 40px;
+
+}
+.GioL p{
+	color: red;
+}
+.SuaXoaL {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding-left: 400px;
+    font-size: 0px;
+}
+.itemL:hover .SuaXoaL {
+	padding-left: 0px;
+    transition : 1s;
+}
+.itemL:hover .SuaL,
+.itemL:hover .XoaL {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+.SuaXoaL a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.SapXepL{
+	display: inline-flex;
+	margin: 0 auto;
+}
+.ListL {
+	grid-column: 1 / span 3;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.BList.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.BList.button2 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid red;
+}
+.BList.button2:hover {
+	background-color: red;
+	color: white;
+}
+.BList.is-form {
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.BList.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.BList.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.BList.is-form:hover{
+	background-color: #4CAF50;
+}
+.BList.ListGio table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+  }
+  
+  .BList.ListGio th, td {
+	padding: 8px;
+	border: 1px solid #ddd;
+  }
+  
+  
+.BList.ListGio th {
+	background-color: #04AA6D;
+	color: white;
+  }
+.BList.ListGio table img {
+	width: 100%;
+}
+.BList.ListGio .anhsp{
+	width: 100px;
+	background-color: white;
+}
+.BList.ListGio input[type=text]{
+	width: 100%;
+	border: none;
+	font-size: 20px;
+	background-color: #E6F1D8;
+}
+
+
+.path {
+	margin-top: 30px;
+	margin-bottom: 30px;
+    padding: 10px;
+
+}
+.path li {
+    display: inline-block;
+    position: relative;
+}
+.path li a {
+    padding: 10px;
+}   
+.path li:after {
+    content: ">";
+    position: absolute;
+    right: -5px;
+    bottom: -2px;
+}
+.path li:last-child:after{
+    content: ' ';
+} 
+.path li:last-child a{
+    color: rgb(68, 160, 68);
+}
+.anhsp {
+	max-width: 100px;
+}
+
+/* .outOfStock {
+	background-color: rgba(135, 122, 122, 0.6);
+}
+.oosImg {
+	background-color: rgba(135, 122, 122, 0.6);
+} */

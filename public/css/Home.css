@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#contentDiv{
+    margin-top: 100px;
+}
+#content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#content div {
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-bottom: 50px;
+}
+#content div img{
+    display: inline-block;
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    text-align: center;
+}
+#content div a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: rgb(33, 52, 77);
+    box-shadow: 0 1px 0 rgba(104, 101, 101, 0.5);
+    color: white;
+}
+#content div a:hover {
+    background-color: rgb(99, 138, 99);
+    color: white;
+}

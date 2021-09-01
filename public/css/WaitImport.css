@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 
+style pathDiv */
+#padthDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#padthDiv ul {
+    padding: 40px 0px;
+}
+#padthDiv div {
+    padding: 35px 0px;
+}
+.historyLink{
+    color: black;
+}
+
+/* style importHistory */
+#importHisory {
+    text-align: center;
+}
+#importHisory h3{
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin-bottom: 50px;
+}
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+}
+table th,
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ebebeb;
+}
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+#content {
+	margin: 0px auto;
+}
+#content h3 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#productForm {
+    max-width: 650px;
+    width: 100%;
+	margin: 0px auto;
+}
+#product {
+    text-align: center;
+}
+#product div {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#product label {
+    display: inline-block;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(241, 247, 241);
+    border-radius: 3px;
+    margin: 10px;
+    height: 30px;
+}
+#product input {
+    display: inline-block;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(198, 223, 198);
+    border-radius: 3px;
+}
+#imgFile {
+	background-color: white !important;
+} 
+
+
+#butDiv{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 50px;
+}
+#butDiv button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+    height: 50px;
+    max-width: 200px;
+    font-size: 16px;
+    background-color: rgb(130, 233, 170);
+    line-height: 0px;
+}
+#butDiv a {
+    display: inline-block;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+    height: 50px;
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 8px;
+    background-color: rgb(223, 160, 145);
+}
+#butDiv a:hover {
+    background-color: rgb(179, 119, 105);
+
+}
+#butDiv button:hover {
+    background-color: rgb(86, 151, 111);
+}
+.anh {
+	width: 100%;
+	object-fit: contain;
+	max-width: 100px;
+}
+
+#tongtien {
+    display: inline-block;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(198, 223, 198);
+    border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+}

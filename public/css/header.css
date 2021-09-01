@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    background-color: #ebebeb;
+}
+.container {
+    width: 70%;
+    margin: 0px auto;
+    
+}
+#adminBar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+h1 img {
+
+    object-fit: contain;
+    height: 100%;
+}
+#adminBar div div {
+    display: inline-block;
+    margin-right: 20px;
+}
+#adminBar div div a {
+    line-height: 100px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}   
+#adminBar div div:last-child {
+    margin-right: 0px;
+}
+#adminBar div div a:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* function bar */
+#functionBar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#413d3d;
+    height: 60px;
+}
+#functionBar ul {
+    height: 100%;
+}
+#functionBar ul li {
+
+    display: inline-block;
+    margin-left: 20px;
+}
+#functionBar ul li:first-child {
+    margin-left: 0px;
+}
+#functionBar ul li a {
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+}
+#functionBar ul li:hover {
+    background-color:rgb(120, 197, 120);
+}
+#functionBar ul li:focus {
+    background-color:rgb(120, 197, 120);
+}
+#searchBar {
+    max-width: 300px;
+    padding: 15px;
+    font-size: 0px;
+}
+#searchBar input {
+    outline: none;
+    border: none;
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+}
+#searchBar button {
+    display: inline-block;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+#searchBar button:hover {
+    background-color: rgb(170, 253, 170);
+}
+.active {
+    background-color: rgba(170, 253, 170,0.5);
+}

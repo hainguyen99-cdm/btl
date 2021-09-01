@@ -1,0 +1,122 @@
+.BGio {
+
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.BGio table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 20px;
+}
+
+.BGio th,
+td {
+	text-align: center;
+	padding: 8px;
+}
+.BGio th {
+	background-color: #04aa6d;
+	color: white;
+}
+.BGio table img {
+	width: 100%;
+}
+/* .BGio .buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.BGio .is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.BGio .is-form:focus,.input-text:focus {
+    outline:none;
+}
+.BGio .is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.BGio .is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.BGio .input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.BGio .input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+} */
+.BGio .button {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.BGio .TongTien input[type=text]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.BGio .TongTien h2{
+    display: inline-block;
+}
+.BGio .TongTien {
+    text-align: right;
+}
+
+
+/** css khach hang form
+**/
+#khachhangForm {
+	border: 3px solid #ebebeb;
+	border-radius: 10px;
+
+}
+#khachhangForm  h3 {
+	text-align: center;
+	margin: 25px 0px;
+}
+#butDiv {
+	justify-content: space-between;
+    display: flex;
+}
+
+
+.DanhSachSP h3 {
+	text-align: center;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}

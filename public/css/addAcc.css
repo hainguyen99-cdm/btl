@@ -1,0 +1,89 @@
+.container >form>div >h3{
+    text-transform: uppercase;
+    margin: 35px 0px;
+    text-align: center;
+}
+#account {
+    text-align: center;
+}
+#account label {
+    display: inline-block;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(241, 247, 241);
+    border-radius: 3px;
+    margin: 20px;
+    height: 30px;
+}
+#account input {
+    display: inline-block;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(198, 223, 198);
+    border-radius: 3px;
+}
+#account select {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(198, 223, 198);
+    border-radius: 3px;
+    padding: 10px;
+}
+#butDiv{
+    text-align: center;
+    height: 50px;
+    margin: 50px auto;
+}
+#butDiv button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+    height: 50px;
+    max-width: 200px;
+    font-size: 16px;
+    background-color: rgb(130, 233, 170);
+    line-height: 0px;
+}
+#butDiv a {
+    display: inline-block;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+    height: 50px;
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 8px;
+    background-color: rgb(223, 160, 145);
+}
+#butDiv a:hover {
+    background-color: rgb(179, 119, 105);
+
+}
+#butDiv button:hover {
+    background-color: rgb(86, 151, 111);
+}
+
+.notificationError {
+	display: block;
+	color: red;
+	margin: 5px;
+	text-align:  center;
+	font-size: 20px; 
+}
+
+a{
+	color:black;
+}
